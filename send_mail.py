@@ -10,8 +10,7 @@ load_dotenv(dotenv_path=dotenv_path)
 
 def send_mail(customer, dealer, rating, comments):
     port = 2525
-    smtp_server = os.getenv("MAIL_SERVER")
-    # smtp_server = "smtp.mailtrap.io"
+    smtp_server = "smtp.mailtrap.io"
     username = os.getenv("USER")
     password = os.getenv("PASSWORD")
     message = f"<h3>New Feedback Submission</h3>\
