@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logo {
+    width: 18rem;
+    height: 22rem;
+}
+
+.container {
+    background-color: rgb(181, 203, 245);
+    height: 90vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border-radius: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(126, 186, 235);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    border-radius: 5px;
+}
+
+#customerName,
+#dealer {
+    width: 18rem;
+    height: 2.5rem;
+    padding: 2px;
+    border-radius: 4px;
+    border: 2px rgb(132, 132, 211) solid;
+    outline: none;
+}
+
+
+
+.ratings {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.btn {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: rgba(231, 162, 71, 0.911);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.message {
+    color: rgb(202, 77, 77);
+    background-color: rgba(231, 162, 71, 0.911);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 1rem;
+}
