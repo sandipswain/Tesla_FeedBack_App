@@ -10,5 +10,5 @@ pipenv install
 # Set ENV = "dev" to run locally
 # Serve on localhost:5000
 python app.py
-Can checkout the app at : https://tesla-feedback.herokuapp.com/
 ```
+Can checkout the app at : https://tesla-feedback.herokuapp.com/
