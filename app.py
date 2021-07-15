@@ -11,7 +11,7 @@ load_dotenv(dotenv_path=dotenv_path)
 
 app = Flask(__name__)
 
-ENV = "dev"
+ENV = "prod"
 
 # ############## Connecting to the database ############## #
 # if the environment == development
